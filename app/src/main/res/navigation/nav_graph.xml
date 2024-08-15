@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_home">
+
+    <!-- Home Fragment -->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.kotlin_fundamentals.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <!-- Friends Fragment -->
+    <fragment
+        android:id="@+id/nav_friends"
+        android:name="com.example.kotlin_fundamentals.FriendsFragment"
+        android:label="Friends"
+        tools:layout="@layout/fragment_friends" />
+
+    <!-- Create Post Fragment -->
+    <fragment
+        android:id="@+id/nav_create_post"
+        android:name="com.example.kotlin_fundamentals.CreatePostFragment"
+        android:label="Create Post"
+        tools:layout="@layout/fragment_create_post" />
+
+    <!-- Favorites Fragment -->
+    <fragment
+        android:id="@+id/nav_favorites"
+        android:name="com.example.kotlin_fundamentals.FavoritesFragment"
+        android:label="Favorites"
+        tools:layout="@layout/fragment_favorites" />
+
+    <!-- AI Fragment -->
+    <fragment
+        android:id="@+id/nav_ai"
+        android:name="com.example.kotlin_fundamentals.AIFragment"
+        android:label="AI"
+        tools:layout="@layout/fragment_ai" />
+
+</navigation>

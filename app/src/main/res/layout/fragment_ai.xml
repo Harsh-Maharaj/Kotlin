@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground">
+
+    <TextView
+        android:id="@+id/text_ai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AI Fragment"
+        android:layout_gravity="center" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ask a question"
+            android:imeOptions="actionSend"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/idTVQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your question will appear here"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/txtResponse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Response will appear here"
+            android:textSize="18sp"
+            android:paddingTop="16dp" />
+    </LinearLayout>
+
+
+</FrameLayout>
